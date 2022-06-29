@@ -24,5 +24,12 @@ $cursos = [
     'versao' => 3.1
   ],
 ];
+//var_dump($cursos);
 
-var_dump($cursos);
+// for($contador =0; $contador < count($cursos); $contador++){
+//   echo $cursos[$contador]['nome'] . '<br>';
+// }
+
+foreach ($cursos as $curso) {
+  echo $curso['nome'] . '<br>';
+}
